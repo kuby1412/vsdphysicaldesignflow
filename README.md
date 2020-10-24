@@ -32,12 +32,12 @@ Below are the stages and the respective tools (in ( )) that are called by openla
  
  Detailed description on how to build and invoke openlane is given in this [link](https://github.com/njose939/openlane_build_script).
  
- Use the following example to check the overall setup:
+ Use the following example to check the overall setup after invoke `openLANE_flow` from docker image:
 
 ```bash
 ./flow.tcl -design spm
 ```
-The above flow.tcl command will run RTL2GDS flow for design named "spm" (non-interactive mode). Same can be done for other designs which are located ~/work/tools/openlane_working_dir/openlane/designs)
+The above `flow.tcl` command will run RTL2GDS flow for design named "spm" (non-interactive mode). Same can be done for other designs which are located `~/work/tools/openlane_working_dir/openlane/designs`
 
 OpenLANE can also be run interactively as shown [here](https://github.com/efabless/openlane/blob/master/doc/advanced_readme.md).
 
