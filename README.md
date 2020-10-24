@@ -30,9 +30,9 @@ Below are the stages and the respective tools (in ( )) that are called by openla
   - Streaming out the final GDSII layout file from the routed def ([Magic](https://github.com/RTimothyEdwards/magic)).
 
 1. **Synthesis**
-    1. ([yosys](https://github.com/YosysHQ/yosys))yosys - Generating gate-level netlist
-    2. ([abc](https://github.com/YosysHQ/yosys)) - Performing cell mapping
-    3. ([OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA)) - Pefroms pre-layout static timing analysis on the resulting netlist to generate timing reports
+    1. [yosys](https://github.com/YosysHQ/yosys) - Generating gate-level netlist
+    2. [abc](https://github.com/YosysHQ/yosys) - Performing cell mapping
+    3. [OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA) - Pefroms pre-layout static timing analysis on the resulting netlist to generate timing reports
 2. **Floorplan and PDN**
     1. `init_fp` - Defines the core area for the macro as well as the rows (used for placement) and the tracks (used for routing)
     2. `ioplacer` - Places the macro input and output ports
