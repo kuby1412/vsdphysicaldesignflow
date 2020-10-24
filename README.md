@@ -39,5 +39,5 @@ Below are the stages and the respective tools (in ( )) that are called by openla
 ```
 The above flow.tcl command will run RTL2GDS flow for design named "spm" (non-interactive mode). Same can be done for other designs which are located ~/work/tools/openlane_working_dir/openlane/designs)
 
-OpenLANE can also be run interactively as shown ([here](https://github.com/efabless/openlane/blob/master/doc/advanced_readme.md)).
+OpenLANE can also be run interactively as shown [here](https://github.com/efabless/openlane/blob/master/doc/advanced_readme.md).
 
